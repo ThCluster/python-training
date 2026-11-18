@@ -37,3 +37,23 @@ print(mon_tuple[3])
 print(mon_tuple[-1])
 
 #Extraction de sous-tuples (slicing)
+
+#Concaténation de tuples
+tuple_1 = (1,2,3,4,5,6)
+tuple_2 = (7,8,9,10,11)
+
+concatenation_tuple = tuple_1 + tuple_2
+print(concatenation_tuple)
+
+#Utilisation des fonctions intégrées len(), min() et max()
+
+mon_tuple = (10, 20, 30, 40)
+print(len(mon_tuple))
+print(min(mon_tuple))
+print(max(mon_tuple))
+
+#Trouver l’index d’un élément avec index()
+tuple_index = (10, 20, 30, 40)
+print(tuple_index.index(30))  # Output : 2
+
+#Les tuples nommés (namedtuples)
